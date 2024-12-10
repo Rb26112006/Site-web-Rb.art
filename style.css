@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.annonce {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 9999;
+    display: none;
+}
+
+.contenu-annonce {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 80%;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.annonce h2 {
+    margin-top: 0;
+    color: #FFD700; /* Or */
+}
+
+.image-annonce {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.fermer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #FFC107;
+}
